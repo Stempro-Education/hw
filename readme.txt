@@ -1,2 +1,2 @@
-"add something" 
-Nove 12, 2012
+please use with care. 
+each week will have its own branch
