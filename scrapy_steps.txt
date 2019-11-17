@@ -1,0 +1,19 @@
+steps:
+1). optional 
+pip install pipenv
+2). create a folder for the project, e.g., pyscrape
+3). cd to the foloder
+4). setup virtualenv
+virtualenv .
+5). activate it
+.\Scripts\activate
+(for Mac): ./bin/activate
+6). check
+pip freeze
+7). pip install Scrapy 
+8) check again
+pip freeze
+9)start a projectc
+scrapy startproject ucaltech
+
+
