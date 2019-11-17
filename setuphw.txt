@@ -15,8 +15,13 @@ git clone --single-branch --branch y2019nov09  https://github.com/Stempro-Educat
 git remote add origin your_repo
 
 ---- and you may multiple branch too. ideally in pace with hw
-git checkout -b y2019nov
-git push -u origin y2019nov
+git checkout -b y2019nov09
+git push -u origin y2019nov09
+
+(for the  first time, you may push to master too)
+git push -u origin master
+
+
 
 --- to pull specific branch: 
 git pull origin master
