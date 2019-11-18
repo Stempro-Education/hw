@@ -1,0 +1,39 @@
+------------------------------- for windows ------------------------------- ------------------------------- 
+------------------------------- for windows ------------------------------- ------------------------------- 
+
+------------------------------------------------copy and paste the following to git bash ------------------------
+------------------------- please copy all the following 12 lines 
+#!/bin/bash
+ $ind="stempro-educatoin/mmhhww"
+ curl -XDELETE -H 'Authorization: token f572868f7e13ed79906ef7c1b68c331d1b60dd05' "https://api.github.com/repos/$ind ";
+ mkdir tmp_hw
+ cd tmp_hw 
+ git clone --bare https://github.com/Stempro-Education/hw
+ cd hw.git
+ git push --mirror https://github.com/Stempro-Education/mmhhww
+ cd ..
+ rm -rf hw.git
+ cd ..
+ rm -rf tmp_hw
+
+-----------------------------------------to start work on homework-----------------------------
+---------------------- run the following step by step 
+step 1). create folder 
+
+if windows:
+right click folder, choose "git bash here"
+
+--2). clone your own repo. 
+git clone --bare https://github.com/Stempro-Education/mmhhww
+git branch -a
+
+---you should see three branches: 
+master
+y2019nov09
+y2019nov17
+
+---to work on this weeks home work:
+git checkout y2019nov17
+
+------------- after you work on it (you will frequently use git status/add/commit)
+git push --all origin
