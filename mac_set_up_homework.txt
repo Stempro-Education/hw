@@ -1,5 +1,5 @@
 ------------------------------- for mac------------------------------- ------------------------------- 
-------------------------------- for windows------------------------------- ------------------------------- 
+------------------------------- for mac------------------------------- ------------------------------- 
 
 step 1). delete your existing repo. Please follow this step: 
 	Delete_Your_Repository.docx
@@ -17,7 +17,10 @@ step 3). copy and paste the whole block below:
  rm -rf hw.git
  cd ..
  rm -rf tmp_hw
- 
+
+
+for mac: you may be asked to enter user name and password. in this case, please run this line by line
+
   
 -----------------------------------------to start work on homework-----------------------------
 ---------------------- run the following step by step 
